@@ -1,0 +1,16 @@
+﻿Build started 1/20/2015 12:54:26 PM.
+     1>Project "I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppCPPProject\LEDClientApp\LEDClientCppApp\LEDClientCppApp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib FormMainClient.cpp
+         FormMainClient.cpp
+     1>i:\workshop\freelancer.com\ledappproject\ledappcppproject\ledclientapp\ledclientcppapp\FormMainClient.h(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDClientApp\Debug\LEDClientCppApp.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\LEDClientCppApp.FormMainClient.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDClientApp\Debug\LEDClientCppApp.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\FormMainClient.obj
+         Debug\Source.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+         LEDClientCppApp.vcxproj -> I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDClientApp\Debug\LEDClientCppApp.exe
+     1>Done Building Project "I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppCPPProject\LEDClientApp\LEDClientCppApp\LEDClientCppApp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.16

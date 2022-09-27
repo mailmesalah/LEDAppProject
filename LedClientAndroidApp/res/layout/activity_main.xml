@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/appHeader"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/textIPAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"            
+            android:text="@string/hostIP"
+            android:textColor="@color/white"
+            android:textSize="@dimen/staticNameFont" />
+        
+        <TextView
+            android:id="@+id/textPortNo"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:text="@string/portNo"
+            android:textColor="@color/white"
+            android:textSize="@dimen/staticNameFont" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"               
+        android:orientation="vertical" >
+        
+        <EditText
+            android:id="@+id/textIPAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="text|textUri|number"
+            android:text="@string/localHost"
+            android:textColorLink="@color/white" >
+
+            <requestFocus />
+        </EditText>
+        <EditText
+            android:id="@+id/textPortNum"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="number"
+            android:text="@string/defaultPortNo"
+            android:textColorLink="@color/white" />
+    </LinearLayout>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonRefresh"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="@dimen/buttonHeight"
+            android:minHeight="@dimen/buttonHeight"
+            android:shadowColor="@color/black"
+            android:text="@string/buttonRefreshText"
+            android:textColor="@color/white"
+            android:textColorHint="@color/black"
+            android:textColorLink="@color/black" />
+
+        <Button
+            android:id="@+id/buttonConnect"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="@dimen/buttonHeight"
+            android:minHeight="@dimen/buttonHeight"
+            android:text="@string/connectButtonText"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:gravity="top|center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="top|center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mainCaption"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttonLed0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                
+                android:minWidth="85dip"
+                android:text="@string/colorRed"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttonLed1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="85dip"
+                android:text="@string/colorBlue"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttonLed2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="85dip"
+                android:text="@string/colorGreen"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttonLed3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="85dip"
+                android:maxWidth="85dip"
+                android:text="@string/colorOrange"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="top|center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/remoteCaption"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttonLed4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="85dip"
+                android:text="@string/colorRed"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttonLed5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="85dip"
+                android:text="@string/colorBlue"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttonLed6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="85dip"
+                android:text="@string/colorGreen"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/buttonLed7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="85dip"
+                android:maxWidth="85dip"
+                android:text="@string/colorYellow"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

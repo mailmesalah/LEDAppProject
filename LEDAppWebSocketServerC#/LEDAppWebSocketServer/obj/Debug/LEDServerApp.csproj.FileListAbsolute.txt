@@ -1,0 +1,13 @@
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDServerApp\bin\Debug\LEDServerApp.exe.config
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDServerApp\bin\Debug\LEDServerApp.exe
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDServerApp\bin\Debug\LEDServerApp.pdb
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDServerApp\obj\Debug\LEDServerApp.csprojResolveAssemblyReference.cache
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDServerApp\obj\Debug\LEDServerApp.Properties.Resources.resources
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDServerApp\obj\Debug\LEDServerApp.csproj.GenerateResource.Cache
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDServerApp\obj\Debug\LEDServerApp.exe
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDServerApp\obj\Debug\LEDServerApp.pdb
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDServerApp\obj\Debug\LEDServerApp.FormMainServer.resources
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDServerApp\bin\Debug\LEDServerApp.exe.manifest
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDServerApp\bin\Debug\LEDServerApp.application
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDServerApp\obj\Debug\LEDServerApp.exe.manifest
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppC#Project\LEDServerApp\obj\Debug\LEDServerApp.application

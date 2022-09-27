@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <title>AutoHotBox LED Example</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body bgcolor="#000000">
+
+    <table>
+      <tr><td rowspan="2" colspan="3"><h1><font color="#FFFFFF">AutoHotBox LED Example</font></h1></td></tr>
+      <tr></tr>
+      <tr>
+		<td><font color="#FFFFFF">Host IP Address</font></td>
+		<td><input type="text" id="textIPAdd" value="127.0.0.1"/></td>
+		<td><button type="button" id="buttonConnect" class="button medium-btn" >Connect</button></td>
+	  </tr>
+      <tr>
+		<td><font color="#FFFFFF">Port No</font></td>
+		<td><input type="text" id="textPortNo" value="8080"/></td>
+		<td><button type="button" id="buttonRefresh" class="button medium-btn">Refresh</button></td>
+	  </tr>	  
+      <tr><td></td></tr>
+	  <tr><td></td></tr>
+	  <tr><td></td></tr>
+	  <tr><td><b><center>Main</center></b></td><td></td><td><b><center>Remote</center></b></td></tr>
+      <tr>
+		<td><button type="button" id="led0" class="button big-btn">Red</button></td>
+		<td></td>
+		<td><button type="button" id="led4" class="button big-btn">Red</button></td>
+	  </tr>
+      <tr>
+		<td><button type="button" id="led1" class="button big-btn">Blue</button></td>
+		<td></td>
+		<td><button type="button" id="led5" class="button big-btn">Blue</button></td>
+		</tr>
+      <tr>
+		<td><button type="button" id="led2" class="button big-btn">Green</button></td>
+		<td></td>
+		<td><button type="button" id="led6" class="button big-btn">Green</button></td>
+	  </tr>
+      <tr>
+		<td><button type="button" id="led3" class="button big-btn">Orange</button></td>
+		<td></td>
+		<td><button type="button" id="led7" class="button big-btn">Yellow</button></td>		
+	  </tr>      
+    </table>
+
+  </body>
+  <script type="text/javascript" src="js/websocket.js"></script>
+  <script>
+
+    //Registering events
+	document.getElementById("buttonConnect").addEventListener("click", connectClicked);
+	document.getElementById("buttonRefresh").addEventListener("click", refreshClicked);
+	document.getElementById("led0").addEventListener("click", led0Clicked);
+	document.getElementById("led1").addEventListener("click", led1Clicked);
+	document.getElementById("led2").addEventListener("click", led2Clicked);
+	document.getElementById("led3").addEventListener("click", led3Clicked);
+	document.getElementById("led4").addEventListener("click", led4Clicked);
+	document.getElementById("led5").addEventListener("click", led5Clicked);
+	document.getElementById("led6").addEventListener("click", led6Clicked);
+	document.getElementById("led7").addEventListener("click", led7Clicked);
+
+  </script>
+</html>

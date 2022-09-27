@@ -1,0 +1,10 @@
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppVBProject\LEDClientVBApp\LEDClientVBApp\bin\Debug\LEDClientVBApp.exe.config
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppVBProject\LEDClientVBApp\LEDClientVBApp\bin\Debug\LEDClientVBApp.exe
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppVBProject\LEDClientVBApp\LEDClientVBApp\bin\Debug\LEDClientVBApp.pdb
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppVBProject\LEDClientVBApp\LEDClientVBApp\bin\Debug\LEDClientVBApp.xml
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppVBProject\LEDClientVBApp\LEDClientVBApp\obj\Debug\LEDClientVBApp.FormMainClient.resources
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppVBProject\LEDClientVBApp\LEDClientVBApp\obj\Debug\LEDClientVBApp.Resources.resources
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppVBProject\LEDClientVBApp\LEDClientVBApp\obj\Debug\LEDClientVBApp.vbproj.GenerateResource.Cache
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppVBProject\LEDClientVBApp\LEDClientVBApp\obj\Debug\LEDClientVBApp.exe
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppVBProject\LEDClientVBApp\LEDClientVBApp\obj\Debug\LEDClientVBApp.xml
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppVBProject\LEDClientVBApp\LEDClientVBApp\obj\Debug\LEDClientVBApp.pdb

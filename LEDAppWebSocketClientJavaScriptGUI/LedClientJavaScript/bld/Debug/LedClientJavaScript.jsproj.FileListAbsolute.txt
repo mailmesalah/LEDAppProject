@@ -1,0 +1,15 @@
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientJavaScriptGUI\LedClientJavaScript\bin\Debug\ReverseMap\resources.pri
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientJavaScriptGUI\LedClientJavaScript\bin\Debug\AppxManifest.xml
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientJavaScriptGUI\LedClientJavaScript\bin\Debug\LedClientJavaScript.build.appxrecipe
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientJavaScriptGUI\LedClientJavaScript\bld\Debug\priconfig.xml
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientJavaScriptGUI\LedClientJavaScript\bld\Debug\priconfig.xml.intermediate
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientJavaScriptGUI\LedClientJavaScript\bld\Debug\layout.resfiles
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientJavaScriptGUI\LedClientJavaScript\bld\Debug\layout.resfiles.intermediate
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientJavaScriptGUI\LedClientJavaScript\bld\Debug\resources.resfiles
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientJavaScriptGUI\LedClientJavaScript\bld\Debug\resources.resfiles.intermediate
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientJavaScriptGUI\LedClientJavaScript\bld\Debug\pri.resfiles
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientJavaScriptGUI\LedClientJavaScript\bld\Debug\pri.resfiles.intermediate
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientJavaScriptGUI\LedClientJavaScript\bld\Debug\qualifiers.txt
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientJavaScriptGUI\LedClientJavaScript\bld\Debug\qualifiers.txt.intermediate
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientJavaScriptGUI\LedClientJavaScript\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientJavaScriptGUI\LedClientJavaScript\bld\Debug\ProjectArchitectures.txt

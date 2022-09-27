@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LEDServerApp.exe" version="1.0.0.1" publicKeyToken="4d2e4b744626c312" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LEDServerApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LEDServerApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LEDServerApp.exe" size="14336">
+      <assemblyIdentity name="LEDServerApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Aqu41Oy/eqjJPLhPQDIT2km9iRftl2m8La9Z3om/v1s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LEDServerApp.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LYCHEE\Sely" issuerKeyHash="2c30147b67d856483af1d1fadfbcf0145df230d9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NvIOtnEC2/Btq+oayQyEyJhKa77LAd+S4TJok9qK7vY=</DigestValue></Reference></SignedInfo><SignatureValue>bjY+30+2xt6vjOpV5wLOmGdGX6723B/27cERz96z3AoUc6Z5KIN/y3wlOSwLWbz3u701+hwAtl5PRO4DIhmPbpz7vUruRqhVfBRqokydgG0L9GHVi3ZPDeGfonVVmZ6yKpRaUq5SBSmAvzKfGCNkISi4T3+OF6+yL4Lh7m5z3DM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2kS8pvA95oQWQLps2Yxv2j/i0AuUWZ0Pk8YFnk/1ckzrKexbhY1hh3GmhcEyC1ozXNhY1aFqoyygWX5wJySPhReP0i8N3o4R8TyyMQuvUIidoJxtd2vr4zBAniirJ7vFrHyhjzkgbS0vxg9+xbVYJrtUEwS3GVtwXNXz3GTlm3E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f6ee8ada936832e192df01cbbe6b4a98c8840cc91aeaab6df0db0271b60ef236" Description="" Url=""><as:assemblyIdentity name="LEDServerApp.exe" version="1.0.0.1" publicKeyToken="4d2e4b744626c312" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LYCHEE\Sely</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>vqKYTuNmodIS5Q3vABHGjrGtZdVrVFesggFPz6pAdAk=</DigestValue></Reference></SignedInfo><SignatureValue>BwRD4OCDu2wzk/pWnsLjjCyXlozeZ82Q9iJxR63nMNeGx5x4O6V2K8VO/9fxfyPBHAWxwYrlrXtmOZDy30IL/60B+LvlfJd8tWm5wOJ9jdOrXn5s1me2+h9OU5J5oPgQ8Vb1Nxc0iFpH+U3+M1MXuGEO1YdjXgXnqTRF5I/R8BQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2kS8pvA95oQWQLps2Yxv2j/i0AuUWZ0Pk8YFnk/1ckzrKexbhY1hh3GmhcEyC1ozXNhY1aFqoyygWX5wJySPhReP0i8N3o4R8TyyMQuvUIidoJxtd2vr4zBAniirJ7vFrHyhjzkgbS0vxg9+xbVYJrtUEwS3GVtwXNXz3GTlm3E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQPNbpV/evybZPyIJMxbgFTzANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYATABZAEMASABFAEUAXABTAGUAbAB5MB4XDTE1MDEwODE5MjM0NloXDTE2MDEwOTAxMjM0NlowITEfMB0GA1UEAx4WAEwAWQBDAEgARQBFAFwAUwBlAGwAeTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2kS8pvA95oQWQLps2Yxv2j/i0AuUWZ0Pk8YFnk/1ckzrKexbhY1hh3GmhcEyC1ozXNhY1aFqoyygWX5wJySPhReP0i8N3o4R8TyyMQuvUIidoJxtd2vr4zBAniirJ7vFrHyhjzkgbS0vxg9+xbVYJrtUEwS3GVtwXNXz3GTlm3ECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBG2bdneFXyQnFTpG8kou+VakzGrSlo1JVUpLH6YTFXR6mjjPTGrIesCS9bHruU0UfFQQ48X3eFkgryxNHMCfpwcX52DRYB4br7/swZ6VhF6WlDMdsGq+KmEXM3Tg97nVvLAOLkaivUe6FlwdF8tw1eZ0XJ3w0pbucjlgyaZ8CLlA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,1 @@
+I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientC#\WebSocketClientCSharp\WebSocketClientCSharp.WindowsPhone\WebSocketClientCSharp.WindowsPhone.csproj;x86

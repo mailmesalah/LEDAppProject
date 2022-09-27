@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>AutoHotBox LED Example</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- LedClientJavaScript references -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script type="text/javascript" src="/js/websocket.js">
+        //Registering events        
+        /*document.getElementById("buttonConnect").innerHTML = "heloo";
+        document.getElementById("buttonConnect").addEventListener("click", connectClicked,false);
+        document.getElementById("buttonRefresh").addEventListener("click", refreshClicked);
+        document.getElementById("led0").addEventListener("click", led0Clicked);
+        document.getElementById("led1").addEventListener("click", led1Clicked);
+        document.getElementById("led2").addEventListener("click", led2Clicked);
+        document.getElementById("led3").addEventListener("click", led3Clicked);
+        document.getElementById("led4").addEventListener("click", led4Clicked);
+        document.getElementById("led5").addEventListener("click", led5Clicked);
+        document.getElementById("led6").addEventListener("click", led6Clicked);
+        document.getElementById("led7").addEventListener("click", led7Clicked);
+        */
+    </script>
+</head>
+<body>
+    <table>
+        <tr><td rowspan="2" colspan="3"><h1><font color="#FFFFFF">AutoHotBox LED Example</font></h1></td></tr>
+        <tr></tr>
+        <tr>
+            <td><font color="#FFFFFF">Host IP Address</font></td>
+            <td><input type="text" id="textIPAdd" value="127.0.0.1" /></td>
+            <td><button type="button" id="buttonConnect" class="button medium-btn" onclick="connectClicked()">Connect</button></td>
+        </tr>
+        <tr>
+            <td><font color="#FFFFFF">Port No</font></td>
+            <td><input type="text" id="textPortNo" value="8080" /></td>
+            <td><button type="button" id="buttonRefresh" class="button medium-btn" onclick="refreshClicked()">Refresh</button></td>
+        </tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td><b><center>Main</center></b></td><td></td><td><b><center>Remote</center></b></td></tr>
+        <tr>
+            <td><button type="button" id="led0" class="button big-btn" onclick="led0Clicked()">Red</button></td>
+            <td></td>
+            <td><button type="button" id="led4" class="button big-btn" onclick="led4Clicked()">Red</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" id="led1" class="button big-btn" onclick="led1Clicked()">Blue</button></td>
+            <td></td>
+            <td><button type="button" id="led5" class="button big-btn" onclick="led5Clicked()">Blue</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" id="led2" class="button big-btn" onclick="led2Clicked()">Green</button></td>
+            <td></td>
+            <td><button type="button" id="led6" class="button big-btn" onclick="led6Clicked()">Green</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" id="led3" class="button big-btn" onclick="led3Clicked()">Orange</button></td>
+            <td></td>
+            <td><button type="button" id="led7" class="button big-btn" onclick="led7Clicked()">Yellow</button></td>
+        </tr>
+    </table>
+</body>
+</html>

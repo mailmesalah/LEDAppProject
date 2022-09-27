@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LEDApp.exe" version="1.0.0.0" publicKeyToken="f22c0ffa8ecd0196" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LEDApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LEDApp.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LEDApp.exe" size="14848">
+      <assemblyIdentity name="LEDApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>E6B/CMJdjIMJyezP1TTNLGXm/HD98qcN7ZjZ0XL4s2g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LEDApp.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LYCHEE\Sely" issuerKeyHash="ad4453720a6c40a6d502d2d93b618592785aae3e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>E++eiy9AxxvLIUUt1U/h1t+AqYyOSqYqq/z1FrOWytA=</DigestValue></Reference></SignedInfo><SignatureValue>TkM4J7Myfjkk0tmuSfh0RxoYI6ghg7XCsIBs4o2rI1J0ov2KTo2ZZ+Ak/qjWioE6i2bT2C88ak6wPc1stxEjMlCcAadJ+8pZ/neHaoZApx4D0Bww8Bc0uqy+PoJ+aF/IUO60LVqIXnpJLG6mHMgJE1vf+s1QCbfQX19h8vbmG5w=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vzTUNDJjxUrVIDLoZ4Nn2bxPBylTP9qxHkxYRJKcqLD9uKfZ6UWFUjR1Z9PPM9H4zuou29Qr07GlrKfTl93UvVBKRynDDSLdVRDn7UD60C3t6T3LNN8mbgWjp9bLMXkPPNdqXJoPKtjdarkvpSt9YXs+gCk90xZl8lz9RUdlkXU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d0ca96b316f5fcab2aa64a8e8ca980dfd6e14fd52d4521cb1bc7402f8b9eef13" Description="" Url=""><as:assemblyIdentity name="LEDApp.exe" version="1.0.0.0" publicKeyToken="f22c0ffa8ecd0196" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LYCHEE\Sely</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lBQa6n0lrCU8PyrvrIXMBUhKCY/rCr3k/N4fq+BrLQQ=</DigestValue></Reference></SignedInfo><SignatureValue>pFAo4D4NpY5gE1UE9UOTZnWoUfzxDI3GuIcmeStt9vllTdymWS3jZABQpgZbEuJrvuKYnLQ9kSn5jQXYOmR/Tyxx03mCweNwYcMUXYoOHrVmJ/xq5Dw+6IJObXc7gIl3ydwEOIcOtOZutKJ0LqEyQySCMmt2Eds1wGXtGgM2Zig=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vzTUNDJjxUrVIDLoZ4Nn2bxPBylTP9qxHkxYRJKcqLD9uKfZ6UWFUjR1Z9PPM9H4zuou29Qr07GlrKfTl93UvVBKRynDDSLdVRDn7UD60C3t6T3LNN8mbgWjp9bLMXkPPNdqXJoPKtjdarkvpSt9YXs+gCk90xZl8lz9RUdlkXU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQNmLr51CxFohGsky1kt6dGzANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYATABZAEMASABFAEUAXABTAGUAbAB5MB4XDTE1MDEwODE5MjIzMloXDTE2MDEwOTAxMjIzMlowITEfMB0GA1UEAx4WAEwAWQBDAEgARQBFAFwAUwBlAGwAeTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvzTUNDJjxUrVIDLoZ4Nn2bxPBylTP9qxHkxYRJKcqLD9uKfZ6UWFUjR1Z9PPM9H4zuou29Qr07GlrKfTl93UvVBKRynDDSLdVRDn7UD60C3t6T3LNN8mbgWjp9bLMXkPPNdqXJoPKtjdarkvpSt9YXs+gCk90xZl8lz9RUdlkXUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCttsrXkAVjxF9nxVAeiNs0EjBWSGqGUCKHFCq9qBnNclwuSkXu/kY8JPkxFQ95d+BYVXS1BuN+EioxLnucb4/jZV0pn4H+yuyKgI8JpE+TImQZO68PIdBHMkFVJtAiwMsCa8xtnh19lydbkYURG/PzHbiGcUGfwWfaTdxZFWQX3Q==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

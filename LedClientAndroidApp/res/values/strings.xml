@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LedClientApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="appHeader">AutoHotBox LED Example</string>
+    <string name="hostIP">Host IP Address</string>
+    <string name="portNo">Port No</string>
+    <string name="connectButtonText">Connect</string>
+    <string name="buttonRefreshText">Refresh</string>
+    <string name="localHost">127.0.0.1</string>
+    <string name="defaultPortNo">8080</string>
+    <string name="mainCaption">Main</string>
+    <string name="remoteCaption">Remote</string>
+    <string name="colorRed">Red</string>
+    <string name="colorBlue">Blue</string>
+    <string name="colorGreen">Green</string>
+    <string name="colorOrange">Orange</string>
+    <string name="colorYellow">Yellow</string>    
+
+</resources>

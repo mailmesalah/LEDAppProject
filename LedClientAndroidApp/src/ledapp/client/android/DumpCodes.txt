@@ -1,0 +1,42 @@
+String hostAddress = "ws://" + serverIPAddress + ":" + serverPortNo;			
+			AsyncHttpClient.getDefaultInstance().websocket(hostAddress, "my-protocol",new AsyncHttpClient.WebSocketConnectCallback() {
+
+				@Override
+				public void onCompleted(Exception ex, WebSocket webSocket) {
+					if (ex != null) {
+						Toast.makeText(getApplicationContext(),
+								"Error "+ex.getMessage(), Toast.LENGTH_SHORT).show();
+						ex.printStackTrace();
+						return;
+					}
+					Toast.makeText(getApplicationContext(),
+							"Connected to Server ", Toast.LENGTH_SHORT).show();
+
+					// keeping the web socket
+					clientWebSocket = webSocket;
+
+					byte data[] = new byte[3];
+					data[0] = 2;
+					data[1] = 0;
+					data[2] = 0;
+					webSocket.send(data);
+
+					webSocket.setDataCallback(new DataCallback() {
+
+						@Override
+						public void onDataAvailable(DataEmitter arg0,
+								ByteBufferList byteBufferList) {
+							System.out.println("I got some bytes!");
+							byte data[] = byteBufferList.getAllByteArray();
+							Toast.makeText(getApplicationContext(),
+									"Bytes has been received " + data.length,
+									Toast.LENGTH_SHORT).show();
+
+							ledMain = data[1];
+							ledRemote = data[2];
+							updateLeds();
+						}
+					});
+				}
+
+			});

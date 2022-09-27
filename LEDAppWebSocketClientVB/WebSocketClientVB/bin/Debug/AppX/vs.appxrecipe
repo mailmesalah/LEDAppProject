@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LYCHEE</Machine>
+    <WindowsUser>Sely</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>9b4e7c10-3440-4f37-a4e7-226ce69a6cda</PackageIdentityName>
+    <IntermediateOutputPath>I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientVB\WebSocketClientVB\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>4746BD096C5299DBD68CF1EF8F91AD2B8DFDE01A026CC98261D047D34F769722</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9b4e7c10-3440-4f37-a4e7-226ce69a6cda_1.0.0.0_neutral__15mchrz5atjrm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>9b4e7c10-3440-4f37-a4e7-226ce69a6cda_15mchrz5atjrm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>9b4e7c10-3440-4f37-a4e7-226ce69a6cda</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Sely</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientVB\WebSocketClientVB\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-08T12:57:33.975</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientVB\WebSocketClientVB\bin\Debug\WebSocketClientVB.exe">
+      <PackagePath>WebSocketClientVB.exe</PackagePath>
+      <Modified>2015-02-08T14:29:25.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientVB\WebSocketClientVB\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T00:31:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientVB\WebSocketClientVB\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T00:31:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientVB\WebSocketClientVB\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T00:31:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientVB\WebSocketClientVB\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T00:31:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientVB\WebSocketClientVB\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-02-08T12:57:31.997</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientVB\WebSocketClientVB\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-02-08T13:52:02.321</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientVB\WebSocketClientVB\bin\Debug\WebSocketClientVB.xr.xml">
+      <PackagePath>WebSocketClientVB.xr.xml</PackagePath>
+      <Modified>2015-02-08T13:52:02.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\wORkShOP\Freelancer.Com\LEDAppProject\LEDAppWebSocketClientVB\WebSocketClientVB\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-02-08T12:57:32.965</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
